@@ -31,7 +31,12 @@ Rearranges the squares in the new image based on the converted positions and rot
 Saves the resulting descrambled image as "descrambled_image.jpg" in the same directory using the new_image.save() method.
 Closes the images, the cursor and connection to the SQLite database.
 
-To run the code, ensure that the "assignment.jpg" image and "assignment.sqlite" database file are in the same directory as the Python files. Also, make sure to have the PIL library installed.
+## Installation
+To install the necessary dependencies, run the following command:
+
+`pip install -r requirements.txt`
+
+To run the code, ensure that the "assignment.jpg" image and "assignment.sqlite" database file are in the same directory as the Python files.
 After running the "main.py" file, the descrambled image will be generated and saved as "descrambled_image.jpg" in the same directory.
 
 
